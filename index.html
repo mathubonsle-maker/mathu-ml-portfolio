@@ -1,139 +1,250 @@
-<!DOCTYPE html>
+DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Machine Learning Engineer Portfolio</title>
+    <meta name="description" content="Mathu's AI and Data Science portfolio showcasing skills and projects.">
+    <title>Mathu Bonsle | AI & ML Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h2>ML Portfolio</h2>
+    <header class="header">
+        <a href="#home" class="logo">Mathu<span>.</span></a>
+
         <nav>
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
-            
             <a href="#education">Education</a>
-
             <a href="#contact">Contact</a>
         </nav>
     </header>
 
-    <section id="home" class="hero">
-        <p class="welcome">WELCOME TO MY PORTFOLIO</p>
-        <h1>Hi, I'm <span>R.Mathu Bonsle</span></h1>
-        <h2>Aspiring Machine Learning Engineer</h2>
-        <p>B.Tech Artificial Intelligence and Data Science Student</p>
-        <a class="btn" href="#projects">View My Projects</a>
-    </section>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="welcome">HELLO, WELCOME TO MY PORTFOLIO</p>
 
-    <section id="about">
-        <h2>About Me</h2>
-<p>
-    My name is R.Mathu Bonsle. I am pursuing B.Tech
-    in Artificial Intelligence and Data Science.
-    I am interested in Machine Learning, Artificial
-    Intelligence, and Data Science. My goal is to
-    develop my technical skills and build useful
-    AI-based projects.
-</p>
-    </section>
+                <h1>Hi, I'm <span>Mathu Bonsle</span></h1>
 
-<section id="skills">
-    <h2>My Technical Skills</h2>
+                <h2>Aspiring AI & Machine Learning Engineer</h2>
 
-    <div class="cards">
-        <div class="card">
-            <h3>Python</h3>
-            <p>Programming Fundamentals</p>
-        </div>
+                <p class="hero-description">
+                    I am an Artificial Intelligence and Data Science student
+                    passionate about technology, machine learning and
+                    building useful AI-powered solutions.
+                </p>
 
-        <div class="card">
-           <h3>Machine Learning</h3>
-            <p>Learning ML Concepts</p>
-        </div>
+                <div class="hero-buttons">
+                    <a class="btn primary-btn" href="#projects">
+                        Explore My Projects ↗
+                    </a>
+                    <a class="btn secondary-btn" href="#contact">
+                        Contact Me
+                    </a>
+                </div>
 
-        <div class="card">
-            <h3>Data Science</h3>
-            <p>Data Analysis Basics</p>
-        </div>
+                <div class="hero-tags">
+                    <span>Artificial Intelligence</span>
+                    <span>Machine Learning</span>
+                    <span>Data Science</span>
+                </div>
+            </div>
 
-        <div class="card">
-            <h3>Web Development</h3>
-            <p>HTML and CSS</p>
-        </div>
-    </div>
-</section>
+            <div class="hero-visual" aria-label="AI and technology illustration">
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="ai-circle">
+                    <span>AI</span>
+                    <small>LEARN · BUILD · GROW</small>
+                </div>
+                <div class="floating-tag tag-one">Python</div>
+                <div class="floating-tag tag-two">Machine Learning</div>
+                <div class="floating-tag tag-three">Data Science</div>
+            </div>
+        </section>
 
-<section id="education">
-    <h2>My Education</h2>
-    <div class="project">
-        <h3>B.Tech Artificial Intelligence and Data Science</h3>
-        <p>NPR College of Engineering and Technology</p>
-        <p>Currently Pursuing</p>
-    </div>
-</section>
+        <section id="about" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2>About <span>Me</span></h2>
+                <p>A student exploring the world of intelligent technology.</p>
+            </div>
 
-<section id="projects">
-    <h2>My Projects</h2>
+            <div class="about-card">
+                <div class="about-icon">✦</div>
+                <div>
+                    <h3>My Journey</h3>
+                    <p>
+                        I am pursuing B.Tech in Artificial Intelligence and
+                        Data Science at NPR College of Engineering and
+                        Technology. I am interested in learning programming,
+                        understanding machine learning concepts and
+                        developing practical projects.
+                    </p>
+                    <p>
+                        My goal is to improve my technical skills, gain
+                        hands-on experience and build technology that
+                        can help solve real-world problems.
+                    </p>
+                </div>
+            </div>
+        </section>
 
-    <div class="project">
-        <h3>Project 1: KneeAI</h3>
-        <p>
-            KneeAI is an AI-assisted project concept
-            for knee image assessment and patient-specific
-            knee implant sizing.
-        </p>
-        <p><strong>Technologies:</strong> Artificial Intelligence, Image Processing</p>
-    </div>
+        <section id="skills" class="section section-alt">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT I AM LEARNING</p>
+                <h2>My <span>Skills</span></h2>
+                <p>Technologies and areas I am developing my knowledge in.</p>
+            </div>
 
-    <div class="project">
-        <h3>Project 2: Smart Waste Segregation</h3>
-        <p>
-            This project explores how AI can help identify
-            different types of waste and support smart
-            waste management.
-        </p>
-        <p><strong>Technologies:</strong> AI, Machine Learning</p>
-    </div>
-</section>
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <div class="skill-icon">Py</div>
+                    <h3>Python</h3>
+                    <p>Programming fundamentals and problem-solving.</p>
+                </article>
 
+                <article class="skill-card">
+                    <div class="skill-icon">ML</div>
+                    <h3>Machine Learning</h3>
+                    <p>Learning AI concepts and machine learning methods.</p>
+                </article>
 
+                <article class="skill-card">
+                    <div class="skill-icon">DS</div>
+                    <h3>Data Science</h3>
+                    <p>Exploring data, analysis and useful insights.</p>
+                </article>
 
-<section id="contact">
-    <h2>Contact Me</h2>
+                <article class="skill-card">
+                    <div class="skill-icon">&lt;/&gt;</div>
+                    <h3>Web Development</h3>
+                    <p>Building websites using HTML and CSS.</p>
+                </article>
+            </div>
+        </section>
 
-    <p>
-        Email:
-        <a href="mailto:mathuramamoorthy@gmail.com">
-            mathuramamoorthy@gmail.com
-        </a>
-    </p>
+        <section id="projects" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">MY WORK</p>
+                <h2>Featured <span>Projects</span></h2>
+                <p>Project concepts I am exploring in AI and technology.</p>
+            </div>
 
-    <p>
-        GitHub:
-        <a href="https://github.com/mathubonsle-maker"
-           target="_blank" rel="noopener noreferrer">
-            Visit My GitHub
-        </a>
-    </p>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-art knee-art">
+                        <div class="project-symbol">✚</div>
+                        <span>AI · HEALTHCARE</span>
+                    </div>
 
-    <p>
-        LinkedIn:
-        <a href="https://www.linkedin.com/in/nprcet-mathu-bonsle-a168b6420/"
-           target="_blank" rel="noopener noreferrer">
-            Visit My LinkedIn
-        </a>
-    </p>
-</section>
+                    <div class="project-content">
+                        <p class="project-number">PROJECT 01</p>
+                        <h3>KneeAI</h3>
+                        <p>
+                            An AI-assisted project concept for knee image
+                            assessment, meniscus measurement and
+                            patient-specific knee implant sizing.
+                        </p>
+                        <div class="project-tags">
+                            <span>Artificial Intelligence</span>
+                            <span>Healthcare</span>
+                        </div>
+                        <span class="project-status">Concept / In Progress</span>
+                    </div>
+                </article>
 
+                <article class="project-card">
+                    <div class="project-art waste-art">
+                        <div class="project-symbol">♻</div>
+                        <span>AI · ENVIRONMENT</span>
+                    </div>
 
-    <footer>
-        <p>© 2026 Mathu | Machine Learning Engineer Portfolio</p>
+                    <div class="project-content">
+                        <p class="project-number">PROJECT 02</p>
+                        <h3>Smart Waste Segregation</h3>
+                        <p>
+                            An AI-based project concept to identify waste
+                            categories and support smarter waste
+                            segregation and management.
+                        </p>
+                        <div class="project-tags">
+                            <span>AI</span>
+                            <span>Sustainability</span>
+                        </div>
+                        <span class="project-status">Concept / In Progress</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="education" class="section section-alt">
+            <div class="section-heading">
+                <p class="eyebrow">MY ACADEMIC BACKGROUND</p>
+                <h2>My <span>Education</span></h2>
+            </div>
+
+            <div class="education-card">
+                <div class="education-marker">✦</div>
+                <div>
+                    <p class="project-number">CURRENTLY PURSUING</p>
+                    <h3>B.Tech Artificial Intelligence and Data Science</h3>
+                    <p>NPR College of Engineering and Technology</p>
+                    <span class="education-status">Undergraduate Degree</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="contact-card">
+                <p class="eyebrow">LET'S CONNECT</p>
+                <h2>Have an idea? <span>Let's connect!</span></h2>
+                <p>
+                    I am interested in learning, collaborating and exploring
+                    opportunities related to AI, machine learning and
+                    technology.
+                </p>
+
+                <div class="contact-links">
+                    <!-- Replace the example email with your real email -->
+                    <a class="btn secondary-btn"
+   href="mailto:mathuramamoorthy@gmail.com">
+    ✉ Email Me
+</a>
+
+                    <!-- Replace # with your real profile URLs -->
+                    <a class="btn secondary-btn"
+   href="https://www.linkedin.com/in/nprcet-mathu-bonsle-a168b6420/"
+   target="_blank"
+   rel="noopener noreferrer">
+    LinkedIn Profile
+</a>
+
+                 <a class="btn secondary-btn"
+   href="https://github.com/mathubonsle-maker"
+   target="_blank"
+   rel="noopener noreferrer">
+    GitHub Profile
+ </a>
+                </div>
+
+                <p class="contact-note">
+                    Update the email and profile links before publishing.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a href="#home" class="logo">Mathu<span>.</span></a>
+        <p>Learning today, building for tomorrow.</p>
+        <p>© 2026 Mathu Bonsle · AI & Data Science Portfolio</p>
     </footer>
 
 </body>
 </html>
+
+
